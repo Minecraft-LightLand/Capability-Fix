@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="LGPL v2.1"
+[[mods]]
+modId="capabilityfix"
+version="${file.jarVersion}" #mandatory
+displayName="Capability Fix" #mandatory
+logoFile="capabilityfix.png" #optional
+credits="Thanks lcy0x1" #optional
+authors="lcy0x1 and LightLand team" #optional
+description='''
+A mod improving capability fetch
+'''
+[[dependencies.capabilityfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.capabilityfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
